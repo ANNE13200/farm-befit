@@ -1,0 +1,16 @@
+.pop_form {
+    height: 30%;
+    max-height: 45vh;
+    margin: 0 30px;
+    
+ font-size: medium;
+ overflow: auto;
+ 
+ -ms-overflow-style: none;  /* IE and Edge */
+ scrollbar-width: none;  /* Firefox */
+}
+
+.pop_form::-webkit-scrollbar {
+    display: none;
+  }
+
