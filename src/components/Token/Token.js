@@ -6,7 +6,8 @@ export default function Token() {
 
   //
   const tokens ={
-    "VEN":{symbol:"BEFIT", logo:"default", address:"0xe13B291652F1eb4CFE2824921b859C6247eA8325", price:"$0.00"},
+    "BEFIT":{symbol:"BEFIT", logo:"default", address:"0xe13B291652F1eb4CFE2824921b859C6247eA8325", price:"$0.00"},
+    "WellBe":{symbol:"WELB", logo:"default", address:"0x5B9641c1C963d0863C0E3943A19B05844b2B2F2F", price:"$0.00"},
     
   }
 

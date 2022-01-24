@@ -85,7 +85,7 @@ export default function Index(props) {
       let response = await fetch(
         "https://api.bscscan.com/api?module=contract&action=getabi&address=" +
           tokenAddress +
-          "&apikey=FP934Q4T14QY4T1XSQT3Q7IZWVFHQAPWWI"
+          "&apikey=DII7Q3FYK8PBGDSYN91P3G6JKJTFWTPD6M"
       );
       console.log("response", response);
       let data = await response.json();
@@ -118,7 +118,7 @@ export default function Index(props) {
       let response = await fetch(
         "https://api.bscscan.com/api?module=contract&action=getabi&address=" +
           tokenAddress +
-          "&apikey=FP934Q4T14QY4T1XSQT3Q7IZWVFHQAPWWI"
+          "&apikey=DII7Q3FYK8PBGDSYN91P3G6JKJTFWTPD6M"
       );
       console.log("response", response);
       let data = await response.json();
@@ -254,7 +254,7 @@ export default function Index(props) {
       let response = await fetch(
         "https://api.bscscan.com/api?module=contract&action=getabi&address=" +
           tokenAddress +
-          "&apikey=FP934Q4T14QY4T1XSQT3Q7IZWVFHQAPWWI"
+          "&apikey=DII7Q3FYK8PBGDSYN91P3G6JKJTFWTPD6M"
       );
       console.log("response", response);
 
@@ -599,7 +599,7 @@ export default function Index(props) {
       let response = await fetch(
         "https://api.bscscan.com/api?module=contract&action=getabi&address=" +
           pair2Address +
-          "&apikey=FP934Q4T14QY4T1XSQT3Q7IZWVFHQAPWWI"
+          "&apikey=DII7Q3FYK8PBGDSYN91P3G6JKJTFWTPD6M"
       );
 	   console.log("Sheryar: ",response)
       let data = await response.json();
